@@ -20,11 +20,12 @@ public class myHooks {
 	@Before
 	public void setup() {
 		
-		driver=Driverfactory.initializedriver(prop.getProperty("browser"));
+		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();	
-		driver.get(prop.getProperty("url"));
+		
 	}
+	
 	
 }
