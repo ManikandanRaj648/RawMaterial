@@ -26,7 +26,6 @@ public class myHooks {
 		driver.manage().window().maximize();	
 		
 	}
-	public void open() {
-		System.out.println("ok to ready");	}
+	
 	
 }
